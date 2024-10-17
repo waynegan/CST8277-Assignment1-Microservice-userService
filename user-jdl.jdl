@@ -1,0 +1,32 @@
+
+
+// User Microservice
+application {
+  config {
+    baseName userService
+    applicationType microservice
+    packageName com.epicwuxia.userservice
+    serverPort 8081
+    prodDatabaseType mongodb
+    devDatabaseType mongodb
+  }
+}
+
+entity User {
+  username String required unique
+  email String required unique
+  password String required
+  roles UserRole
+  createdAt Instant
+  updatedAt Instant
+}
+
+enum UserRole {
+  PRODUCER, SUBSCRIBER, BOTH
+}
+
+
+// Options
+dto * with mapstruct
+service * with serviceClass
+search * with elasticsearch

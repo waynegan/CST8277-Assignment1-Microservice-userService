@@ -128,7 +128,7 @@ For more information, refer to the [Code quality page][].
 
 You can use Docker to improve your JHipster development experience. A number of docker-compose configuration are available in the [src/main/docker](src/main/docker) folder to launch required third party services.
 
-For example, to start a database in a docker container, run:
+For example, to start a mongodb database in a docker container, run:
 
 ```
 docker compose -f src/main/docker/mongodb.yml up -d
