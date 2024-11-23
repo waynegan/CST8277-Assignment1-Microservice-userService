@@ -17,7 +17,7 @@ logging:
   level:
     ROOT: INFO
     tech.jhipster: INFO
-    com.epicwuxia.userservice: INFO
+    org.cst8277.GanWei.userservice: INFO
 
 management:
   prometheus:

@@ -1,2 +1,2 @@
-org.springframework.test.context.ContextCustomizerFactory = com.epicwuxia.\
+org.springframework.test.context.ContextCustomizerFactory = org.cst8277.GanWei.\
     userservice.config.TestContainersSpringContextCustomizerFactory
