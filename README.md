@@ -1,8 +1,5 @@
 # userService
 
-This application was generated using JHipster 8.7.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v8.7.1](https://www.jhipster.tech/documentation-archive/v8.7.1).
-
-This is a "microservice" application intended to be part of a microservice architecture, please refer to the [Doing microservices with JHipster][] page of the documentation for more information.
 
 This application is configured for Service Discovery and Configuration with Consul. On launch, it will refuse to start if it is not able to connect to Consul at [http://localhost:8500](http://localhost:8500). For more information, read our documentation on [Service Discovery and Configuration with Consul][].
 
@@ -163,22 +160,10 @@ When running Docker Desktop on MacOS Big Sur or later, consider enabling experim
 
 For more information refer to [Using Docker and Docker-Compose][], this page also contains information on the docker-compose sub-generator (`jhipster docker-compose`), which is able to generate docker configurations for one or several JHipster applications.
 
-## Continuous Integration (optional)
 
-To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`), this will let you generate configuration files for a number of Continuous Integration systems. Consult the [Setting up Continuous Integration][] page for more information.
 
-[JHipster Homepage and latest documentation]: https://www.jhipster.tech
-[JHipster 8.7.1 archive]: https://www.jhipster.tech/documentation-archive/v8.7.1
-[Doing microservices with JHipster]: https://www.jhipster.tech/documentation-archive/v8.7.1/microservices-architecture/
-[Using JHipster in development]: https://www.jhipster.tech/documentation-archive/v8.7.1/development/
-[Service Discovery and Configuration with Consul]: https://www.jhipster.tech/documentation-archive/v8.7.1/microservices-architecture/#consul
-[Using Docker and Docker-Compose]: https://www.jhipster.tech/documentation-archive/v8.7.1/docker-compose
-[Using JHipster in production]: https://www.jhipster.tech/documentation-archive/v8.7.1/production/
-[Running tests page]: https://www.jhipster.tech/documentation-archive/v8.7.1/running-tests/
-[Code quality page]: https://www.jhipster.tech/documentation-archive/v8.7.1/code-quality/
-[Setting up Continuous Integration]: https://www.jhipster.tech/documentation-archive/v8.7.1/setting-up-ci/
 [Node.js]: https://nodejs.org/
 [NPM]: https://www.npmjs.com/
 [OpenAPI-Generator]: https://openapi-generator.tech
 [Swagger-Editor]: https://editor.swagger.io
-[Doing API-First development]: https://www.jhipster.tech/documentation-archive/v8.7.1/doing-api-first-development/
+
